@@ -4,6 +4,10 @@ This repository is used to keep the files for the projects for learning **CUDA p
 
 The projects were provided by Professor Angelo Duarte from State University of Feira de Santana requested from me for the course of **High Performance Programming**.
 
+---
+
+## Projects
+
 A list of 13 projects were provided:
 
 1. Game of Life
@@ -19,3 +23,21 @@ A list of 13 projects were provided:
 11. Mandelbrot
 12. Word 2 Vec
 13. JPEG Algorithm
+
+---
+
+## Progress:
+
+- [-] Game of Life
+- [ ] Inverse Matrix
+- [ ] Random Number
+- [ ] Foxes and Rabbits
+- [ ] Sort
+- [ ] Pythagorean triples
+- [ ] Frequency Counter
+- [ ] Color quantization
+- [ ] Gabor Filter
+- [ ] Text tendency
+- [ ] Mandelbrot
+- [ ] Word 2 Vec
+- [ ] JPEG Algorithm
