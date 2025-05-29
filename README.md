@@ -28,7 +28,7 @@ A list of 13 projects were provided:
 
 ## Progress:
 
-- [-] Game of Life
+- [ ] Game of Life
 - [ ] Inverse Matrix
 - [ ] Random Number
 - [ ] Foxes and Rabbits
