@@ -1,4 +1,4 @@
-CC=gcc
+CC=g++
 NVCC=nvcc
 CFLAGS=-Wall -Wextra
 
@@ -7,11 +7,11 @@ SOURCE_PARALLEL=$(project)/parallel.cu
 
 build-serial: $(SOURCE_SERIAL)
 	@echo "-> Building serial version of $(project)..."
-	$(CC) $(CFLAGS) -o serial $(SOURCE_SERIAL)
+	$(CC) $(CFLAGS) -o $(project)/serial $(SOURCE_SERIAL)
 	@echo "-> Serial build complete"
 build-parallel: $(SOURCE_PARALLEL)
 	@echo "-> Building parallel version of $(project)..."
-	$(NVCC) $(CFLAGS) -o parallel $(SOURCE_PARALLEL)
+	$(NVCC) $(CFLAGS) -o $(project)/parallel $(SOURCE_PARALLEL)
 	@echo "-> Parallel build complete"
 
 clean:
